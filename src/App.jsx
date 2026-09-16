@@ -1,14 +1,9 @@
-import Profile from "./components/Profile";
-import Header from "./components/Header";
-import Skills from "./components/Skills";
-
+import Counter from "./components/Counter";
 
 function App() {
     return (
         <div>
-            <Header />
-            <Profile />
-            <Skills />
+            <Counter />
         </div>
     );
 }
